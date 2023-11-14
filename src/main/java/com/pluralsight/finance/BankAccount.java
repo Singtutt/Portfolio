@@ -5,10 +5,10 @@ public class BankAccount implements Valuable {
     private String accountNumber;
     private double balance;
 
-    public BankAccount(String accountNumber, String name, double balance) {
+    public BankAccount(String accountNumber, String name, String balance) {
         this.name = name;
         this.accountNumber = accountNumber;
-        this.balance = balance;
+        this.balance = Double.parseDouble(balance);
     }
     public void deposit(double amount) {
         balance += amount;
