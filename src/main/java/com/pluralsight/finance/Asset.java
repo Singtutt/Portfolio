@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.finance;
 
 import com.pluralsight.finance.Valuable;
 

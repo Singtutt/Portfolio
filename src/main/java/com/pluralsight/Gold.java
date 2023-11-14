@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import com.pluralsight.finance.Asset;
+
 public class Gold extends Asset {
     private double weight;
 
